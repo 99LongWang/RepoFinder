@@ -1,0 +1,7 @@
+This is the tutorial how to run build script:
+
+- Install Apache Ant on your system:
+    + Windows: you can down load from Apache website
+    + MacOS: Install hombrew -> run command "brew install ant"
+
+- In your teminal -> get in you project folder -> run command "ant war" 

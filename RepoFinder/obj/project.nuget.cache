@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vD9C24oaioYpMAfxuDsLlDamL2L+yblrLW0Gh4YJEgtRTm9nW2Nsc1lunoNR54bxaM4/Bk4utU8T4/Ie9Fu+fA==",
+  "success": true,
+  "projectFilePath": "/Users/esteban/RepoFinder/RepoFinder/RepoFinder.sqlproj",
+  "expectedPackageFiles": [
+    "/Users/esteban/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/Users/esteban/.nuget/packages/microsoft.netframework.referenceassemblies.net46/1.0.0/microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512",
+    "/Users/esteban/.nuget/packages/microsoft.sqlserver.dacpacs.master/160.0.0/microsoft.sqlserver.dacpacs.master.160.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
