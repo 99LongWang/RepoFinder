@@ -1,0 +1,2 @@
+/Users/esteban/RepoFinder/RepoFinder/obj/Debug/RepoFinder.dll
+/Users/esteban/RepoFinder/RepoFinder/obj/Debug/RepoFinder.pdb

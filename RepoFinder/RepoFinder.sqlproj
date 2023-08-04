@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="0.1.10-preview" />
+  <PropertyGroup>
+    <Name>RepoFinder</Name>
+    <ProjectGuid>{74551B3D-D0F3-44C2-B5E1-819A216301BF}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Build Include="..\database.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SqlServer.Dacpacs.Master">
+      <Version>160.0.0</Version>
+      <GeneratePathProperty>True</GeneratePathProperty>
+      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
+    </PackageReference>
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
+  </Target>
+</Project>
